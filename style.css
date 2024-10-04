@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(228, 0, 43);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item {
+    display: flex;
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+}
+
+.searchlogo {
+    width: aut0;
+    height: 50px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchbar {
+    width: 100%;
+    padding: 10px 40px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+.searchbar-input {
+    background-color: whitesmoke;
+    border: none;
+    padding: 0;
+}
+
+.searchbar-input:focus {
+    background-color: focus;
+    outline: none;
+}
+
+.login {
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.login > a {
+    color: white;
+    text-decoration: none;
+}
+
+.login > a:hover {
+    color: rgb(203, 221, 225);
+    text-decoration: none;
+}
